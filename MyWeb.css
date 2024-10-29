@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#themeSwitcher {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    margin: 50px;
+    background: #473fe7;
+    color: #F4D03F;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s; /* Add transition for smooth effect */
+}
+
+button:hover {
+    background: #1786b5d7; /* Change to a lighter shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+header {
+    background: #16A085;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 
+}
+
+nav ul {
+    list-style: none;
+    padding: 20;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    color: #f1f2f5;
+    text-decoration: wavy;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #8691f7;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #473fe7;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#form {
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    background: #1786b5d7;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    color: var(--dark-purple);
+    background-color: var(--light-blue);
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: var(--light-blue);
+    border-width: 3px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#129ef5, #08b4f8);
+}

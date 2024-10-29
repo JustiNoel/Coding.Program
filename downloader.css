@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c46ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgb(210, 115, 224);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(3, 185, 209, 0.525);
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+}
